@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533E60CD2A789B5D00DEC169 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533E60CC2A789B5D00DEC169 /* SettingTableViewController.swift */; };
+		539E9E122A79F232005521D1 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E9E112A79F232005521D1 /* TimelineViewController.swift */; };
+		539E9E1E2A7B72BD005521D1 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E9E1D2A7B72BD005521D1 /* LottoViewController.swift */; };
 		53D87FEA2A773A8300B388D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D87FE92A773A8300B388D1 /* AppDelegate.swift */; };
 		53D87FEC2A773A8300B388D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D87FEB2A773A8300B388D1 /* SceneDelegate.swift */; };
-		53D87FEE2A773A8300B388D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D87FED2A773A8300B388D1 /* ViewController.swift */; };
+		53D87FEE2A773A8300B388D1 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D87FED2A773A8300B388D1 /* AddViewController.swift */; };
 		53D87FF12A773A8300B388D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D87FEF2A773A8300B388D1 /* Main.storyboard */; };
 		53D87FF32A773A8400B388D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D87FF22A773A8400B388D1 /* Assets.xcassets */; };
 		53D87FF62A773A8400B388D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D87FF42A773A8400B388D1 /* LaunchScreen.storyboard */; };
+		53D87FFE2A773AC600B388D1 /* DiaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D87FFD2A773AC600B388D1 /* DiaryTableViewController.swift */; };
+		53D880032A773BBF00B388D1 /* DiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D880012A773BBF00B388D1 /* DiaryTableViewCell.swift */; };
+		53D880042A773BBF00B388D1 /* DiaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D880022A773BBF00B388D1 /* DiaryTableViewCell.xib */; };
+		53D880062A7752D300B388D1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D880052A7752D300B388D1 /* DetailViewController.swift */; };
+		53D880082A77625300B388D1 /* Extensoin+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D880072A77625300B388D1 /* Extensoin+UIViewController.swift */; };
+		53D8800A2A77796200B388D1 /* SearchCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D880092A77796200B388D1 /* SearchCollectionViewController.swift */; };
+		53D8800D2A777AD300B388D1 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D8800B2A777AD300B388D1 /* SearchCollectionViewCell.swift */; };
+		53D8800E2A777AD300B388D1 /* SearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D8800C2A777AD300B388D1 /* SearchCollectionViewCell.xib */; };
+		53DC9AEE2A80805F009B3304 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 53DC9AED2A80805F009B3304 /* Alamofire */; };
+		53DC9AF12A80806C009B3304 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 53DC9AF02A80806C009B3304 /* SwiftyJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		533E60CC2A789B5D00DEC169 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		539E9E112A79F232005521D1 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		539E9E1D2A7B72BD005521D1 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
 		53D87FE62A773A8300B388D1 /* OneLineDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneLineDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D87FE92A773A8300B388D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53D87FEB2A773A8300B388D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		53D87FED2A773A8300B388D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53D87FED2A773A8300B388D1 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		53D87FF02A773A8300B388D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53D87FF22A773A8400B388D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53D87FF52A773A8400B388D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53D87FF72A773A8400B388D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D87FFD2A773AC600B388D1 /* DiaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewController.swift; sourceTree = "<group>"; };
+		53D880012A773BBF00B388D1 /* DiaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCell.swift; sourceTree = "<group>"; };
+		53D880022A773BBF00B388D1 /* DiaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiaryTableViewCell.xib; sourceTree = "<group>"; };
+		53D880052A7752D300B388D1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		53D880072A77625300B388D1 /* Extensoin+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensoin+UIViewController.swift"; sourceTree = "<group>"; };
+		53D880092A77796200B388D1 /* SearchCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewController.swift; sourceTree = "<group>"; };
+		53D8800B2A777AD300B388D1 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		53D8800C2A777AD300B388D1 /* SearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53DC9AF12A80806C009B3304 /* SwiftyJSON in Frameworks */,
+				53DC9AEE2A80805F009B3304 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +84,19 @@
 			children = (
 				53D87FE92A773A8300B388D1 /* AppDelegate.swift */,
 				53D87FEB2A773A8300B388D1 /* SceneDelegate.swift */,
-				53D87FED2A773A8300B388D1 /* ViewController.swift */,
+				53D87FED2A773A8300B388D1 /* AddViewController.swift */,
+				53D880052A7752D300B388D1 /* DetailViewController.swift */,
 				53D87FEF2A773A8300B388D1 /* Main.storyboard */,
+				539E9E1D2A7B72BD005521D1 /* LottoViewController.swift */,
+				539E9E112A79F232005521D1 /* TimelineViewController.swift */,
+				533E60CC2A789B5D00DEC169 /* SettingTableViewController.swift */,
+				53D8800B2A777AD300B388D1 /* SearchCollectionViewCell.swift */,
+				53D8800C2A777AD300B388D1 /* SearchCollectionViewCell.xib */,
+				53D880092A77796200B388D1 /* SearchCollectionViewController.swift */,
+				53D87FFD2A773AC600B388D1 /* DiaryTableViewController.swift */,
+				53D880072A77625300B388D1 /* Extensoin+UIViewController.swift */,
+				53D880012A773BBF00B388D1 /* DiaryTableViewCell.swift */,
+				53D880022A773BBF00B388D1 /* DiaryTableViewCell.xib */,
 				53D87FF22A773A8400B388D1 /* Assets.xcassets */,
 				53D87FF42A773A8400B388D1 /* LaunchScreen.storyboard */,
 				53D87FF72A773A8400B388D1 /* Info.plist */,
@@ -83,6 +120,10 @@
 			dependencies = (
 			);
 			name = OneLineDiary;
+			packageProductDependencies = (
+				53DC9AED2A80805F009B3304 /* Alamofire */,
+				53DC9AF02A80806C009B3304 /* SwiftyJSON */,
+			);
 			productName = OneLineDiary;
 			productReference = 53D87FE62A773A8300B388D1 /* OneLineDiary.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +152,10 @@
 				Base,
 			);
 			mainGroup = 53D87FDD2A773A8300B388D1;
+			packageReferences = (
+				53DC9AEC2A80805F009B3304 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				53DC9AEF2A80806C009B3304 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 53D87FE72A773A8300B388D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +172,9 @@
 			files = (
 				53D87FF62A773A8400B388D1 /* LaunchScreen.storyboard in Resources */,
 				53D87FF32A773A8400B388D1 /* Assets.xcassets in Resources */,
+				53D8800E2A777AD300B388D1 /* SearchCollectionViewCell.xib in Resources */,
 				53D87FF12A773A8300B388D1 /* Main.storyboard in Resources */,
+				53D880042A773BBF00B388D1 /* DiaryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +185,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D87FEE2A773A8300B388D1 /* ViewController.swift in Sources */,
+				53D8800A2A77796200B388D1 /* SearchCollectionViewController.swift in Sources */,
+				539E9E122A79F232005521D1 /* TimelineViewController.swift in Sources */,
+				53D87FEE2A773A8300B388D1 /* AddViewController.swift in Sources */,
+				53D880082A77625300B388D1 /* Extensoin+UIViewController.swift in Sources */,
+				53D880032A773BBF00B388D1 /* DiaryTableViewCell.swift in Sources */,
+				533E60CD2A789B5D00DEC169 /* SettingTableViewController.swift in Sources */,
+				53D87FFE2A773AC600B388D1 /* DiaryTableViewController.swift in Sources */,
+				53D880062A7752D300B388D1 /* DetailViewController.swift in Sources */,
 				53D87FEA2A773A8300B388D1 /* AppDelegate.swift in Sources */,
+				539E9E1E2A7B72BD005521D1 /* LottoViewController.swift in Sources */,
 				53D87FEC2A773A8300B388D1 /* SceneDelegate.swift in Sources */,
+				53D8800D2A777AD300B388D1 /* SearchCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +358,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dahye.OneLineDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +389,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dahye.OneLineDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +420,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53DC9AEC2A80805F009B3304 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		53DC9AEF2A80806C009B3304 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53DC9AED2A80805F009B3304 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53DC9AEC2A80805F009B3304 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		53DC9AF02A80806C009B3304 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53DC9AEF2A80806C009B3304 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 53D87FDE2A773A8300B388D1 /* Project object */;
 }
