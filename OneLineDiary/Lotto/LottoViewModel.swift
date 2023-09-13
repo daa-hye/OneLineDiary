@@ -12,8 +12,9 @@ class LottoViewModel {
     private let lottoManager = LottoAPIManager.shared
 
     var pickedNumbers: [Observable<Int?>] = [Observable(0),Observable(0),Observable(0),Observable(0),Observable(0),Observable(0)]
-    var bonusNumber:Observable<Int?> = Observable(0)
-    var date:Observable<String?> = Observable("")
+    var bonusNumber: Observable<Int?> = Observable(0)
+    var date: Observable<String?> = Observable("")
+    var drawNumber: Observable<Int?> = Observable(0)
 
     func loadNumber(_ drawNumber: Int) {
 
@@ -35,37 +36,37 @@ class LottoViewModel {
 
     }
 
-    func setColor(number: Int) -> String {
+    func setColor(number: Int) -> [CGFloat] {
         switch pickedNumbers[number].value! {
         case 1...10:
-            return "yellow"
+            return [1.0, 1.0, 0]
         case 11...20:
-            return "blue"
+            return [0, 0, 1.0]
         case 21...30:
-            return "red"
+            return [1.0, 0, 0]
         case 31...40:
-            return "gray"
+            return [0.5, 0.5, 0.5]
         case 41...45:
-            return "green"
+            return [0, 1.0, 0]
         default:
-            return "clear"
+            return [0, 0, 0]
         }
     }
 
-    func setColor() -> String {
+    func setColor() -> [CGFloat] {
         switch bonusNumber.value! {
         case 1...10:
-            return "yellow"
+            return [1.0, 1.0, 0]
         case 11...20:
-            return "blue"
+            return [0, 0, 1.0]
         case 21...30:
-            return "red"
+            return [1.0, 0, 0]
         case 31...40:
-            return "gray"
+            return [0.5, 0.5, 0.5]
         case 41...45:
-            return "green"
+            return [0, 1.0, 0]
         default:
-            return "clear"
+            return [0, 0, 0]
         }
     }
     

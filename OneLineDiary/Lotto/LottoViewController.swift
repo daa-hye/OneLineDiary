@@ -26,6 +26,7 @@ class LottoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        model.loadNumber(max_number)
         //print("1")
         //print("2")
 
@@ -46,7 +47,7 @@ class LottoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
                 self.pickedNumberLabel[i].text = "\($0!)"
 
                 let color = self.model.setColor(number: i)
-                self.pickedNumberLabel[i].backgroundColor = UIColor(named: color)
+                self.pickedNumberLabel[i].backgroundColor = UIColor(red: color[0], green: color[1], blue: color[2], alpha: 1.0)
 
             }
         }
@@ -54,7 +55,7 @@ class LottoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         model.bonusNumber.bind {
             self.bonusNumberLabel.text = "\($0!)"
             let color = self.model.setColor()
-            self.bonusNumberLabel.backgroundColor = UIColor(named: color)
+            self.bonusNumberLabel.backgroundColor = UIColor(red: color[0], green: color[1], blue: color[2], alpha: 1.0)
         }
 
         model.date.bind {
@@ -74,6 +75,13 @@ class LottoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
 
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         model.loadNumber(list[row])
+        let numbers = model.pickedNumbers
+        for i in 0..<numbers.count {
+            model.pickedNumbers[i].value = Int(pickedNumberLabel[i].text!)!
+        }
+        model.bonusNumber.value = Int(bonusNumberLabel.text!)!
+        model.date.value = dateLabel.text
+
     }
 
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
